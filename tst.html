@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Questions</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        .question {
+            margin: 20px 0;
+        }
+
+        .options {
+            list-style-type: none;
+            padding: 0;
+        }
+
+            .options li {
+                margin: 5px 0;
+            }
+
+            .options input {
+                margin-right: 10px;
+            }
+
+        .submit-btn {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+            .submit-btn:hover {
+                background-color: #45a049;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Test Questions</h1>
+        <form id="testForm">
+            <!-- Question 1 -->
+            <div class="question">
+                <p>1. What is validation in computer science?</p>
+                <ul class="options">
+                    <li><input type="radio" name="q1" value="a">  Checking if a system behaves as expected</li>
+                    <li><input type="radio" name="q1" value="b"> Ensuring data is in the correct format and within acceptable ranges</li>
+                    <li><input type="radio" name="q1" value="c"> Detecting and fixing bugs in a program</li>
+                    <li><input type="radio" name="q1" value="d"> Securing a system from unauthorized access</li>
+                </ul>
+            </div>
+
+            <!-- Question 2 -->
+            <div class="question">
+                <p>2. Which is NOT validation check?</p>
+                <ul class="options">
+                    <li><input type="radio" name="q2" value="a"> Range check</li>
+                    <li><input type="radio" name="q2" value="b"> Format check</li>
+                    <li><input type="radio" name="q2" value="c"> Error detection check</li>
+                    <li><input type="radio" name="q2" value="d"> Completeness check</li>
+                </ul>
+            </div>
+
+            <!-- Question 3-->
+            <div class="question">
+                <p>3. When is validation typically done in development?</p>
+                <ul class="options">
+                    <li><input type="radio" name="q3" value="a"> After deployment</li>
+                    <li><input type="radio" name="q3" value="b"> During testing</li>
+                    <li><input type="radio" name="q3" value="c"> During compilation</li>
+                    <li><input type="radio" name="q3" value="d"> During data entry</li>
+                </ul>
+            </div>
+
+            <!-- Question 4 -->
+            <div class="question">
+                <p>4. What validation technique is used to check user enters an integer for their age?</p>
+                <ul class="options">
+                    <li><input type="radio" name="q4" value="a"> Range check</li>
+                    <li><input type="radio" name="q4" value="b"> Type check</li>
+                    <li><input type="radio" name="q4" value="c"> Format check</li>
+                    <li><input type="radio" name="q4" value="d"> Presence check</li>
+                </ul>
+            </div>
+
+            <!-- Question 5 -->
+            <div class="question">
+                <p>5. What is goal of verification?</p>
+                <ul class="options">
+                    <li><input type="radio" name="q5" value="a"> To test performance of software</li>
+                    <li><input type="radio" name="q5" value="b"> To ensure software functions according to specifications</li>
+                    <li><input type="radio" name="q5" value="c"> To debug software</li>
+                    <li><input type="radio" name="q5" value="d"> To reduce cost</li>
+                </ul>
+            </div>
+
+            <!-- Question 6 -->
+            <div class="question">
+                <p>6. Verification test is aimed to</p>
+                <ul class="options">
+                    <li><input type="radio" name="q6" value="a"> Help with providing data for program</li>
+                    <li><input type="radio" name="q6" value="b"> Make the testing easier</li>
+                    <li><input type="radio" name="q6" value="c"> Check correct outputs</li>
+                    <li><input type="radio" name="q6" value="d"> Check that program is working as intended</li>
+                </ul>
+            </div>
+
+            <!-- Question 7 -->
+            <div class="question">
+                <p>7. Which of the following is a verification technique?</p>
+                <ul class="options">
+                    <li><input type="radio" name="q7" value="a"> Black box testing</li>
+                    <li><input type="radio" name="q7" value="b"> Range testing</li>
+                    <li><input type="radio" name="q7" value="c"> Unit testing</li>
+                    <li><input type="radio" name="q7" value="d"> System monitoring</li>
+                </ul>
+            </div>
+
+            <!-- Question 8 -->
+            <div class="question">
+                <p>8. Which of pseudocode has a syntax error?</p>
+                <ul class="options">
+                    <li>
+                        <input type="radio" name="q8" value="a"> <br>IF score > 50 THEN<br>
+                        PRINT "Pass"<br>
+                        ENDIF<br>
+                    </li>
+                    <li>
+                        <input type="radio" name="q8" value="b"> <br>FOR i = 1 TO 10<br>
+                        PRINT i<br>
+                        ENDFOR<br>
+                    </li>
+                    <li>
+                        <input type="radio" name="q8" value="c"> <br>WHILE x < 100<br>
+                        PRINT x<br>
+                        x = x + 1<br>
+                        ENDWHILE<br>
+                    </li>
+                    <li>
+                        <input type="radio" name="q8" value="d"> <br>REPEAT UNTIL y == 0<br>
+                        PRINT y<br>
+                        y = y - 1<br>
+                        ENDREPEAT<br>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Question 9 -->
+            <div class="question">
+                <p>9. What is a semantic error?</p>
+                <ul class="options">
+                    <li><input type="radio" name="q9" value="a">  An error that occurs when the syntax of a program is incorrect, preventing it from compiling.</li>
+                    <li><input type="radio" name="q9" value="b"> A logical error that occurs when the code runs but produces incorrect or unintended results</li>
+                    <li><input type="radio" name="q9" value="c"> An error that arises from a typo or misspelled variable name</li>
+                    <li><input type="radio" name="q9" value="d"> A runtime error that occurs when the program attempts to access invalid memory locations</li>
+                </ul>
+            </div>
+
+            <!-- Question 10 -->
+            <div class="question">
+                <p>10. What is a runtime error?</p>
+                <ul class="options">
+                    <li><input type="radio" name="q10" value="a"> An error that occurs while the program is executing, often due to resource issues</li>
+                    <li><input type="radio" name="q10" value="b"> An error during the compilation process, preventing the program from being created</li>
+                    <li><input type="radio" name="q10" value="c"> An error caused by incorrect syntax, which is caught before the program runs</li>
+                    <li><input type="radio" name="q10" value="d"> An error that occurs during the design phase and affects its overall logic</li>
+                </ul>
+            </div>
+
+            <button type="submit" class="submit-btn">Submit Answers</button>
+        </form>
+        <p id="score" style="font-weight: bold; font-size: 18px; text-align: center; margin-top: 20px;"></p>
+    </div>
+
+    <script>
+        document.getElementById("testForm").addEventListener("submit", function (event) {
+            event.preventDefault();
+
+            const correctAnswers = {
+                q1: 'b',
+                q2: 'c',
+                q3: 'd',
+                q4: 'b', 
+                q5: 'b',
+                q6: 'd',
+                q7: 'd',
+                q8: 'd',
+                q9: 'b',
+                q10: 'a'
+            };
+
+            let score = 0;
+            let totalQuestions = 10; // Update as more questions are added
+
+            // Loop through the form and check answers
+            for (let i = 1; i <= totalQuestions; i++)
+            {
+                const userAnswer = document.querySelector(`input[name="q${i}"]:checked` );
+                if (userAnswer && userAnswer.value === correctAnswers[`q${i}`]) {
+                    score++;
+                }
+            }
+
+            // Display the score
+            const scoreElement = document.getElementById('score');
+            alert(`Your score is ${score} out of ${totalQuestions}`);
+            scoreElement.textContent = `Your score is ${score} out of ${totalQuestions}`;
+        });
+    </script>
+</body>
+</html>
